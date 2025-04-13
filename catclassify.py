@@ -4,7 +4,7 @@ import pathlib
 from fastai.vision.all import *
 
 #title
-st.title("Model to classify types of cats")
+st.title("Model to classify types of feelines between Leopards, Tigers, Lions and Cats")
 
 #upload file
 file = st.file_uploader("Upload an image", type=['jpeg', 'png', 'gif',])
